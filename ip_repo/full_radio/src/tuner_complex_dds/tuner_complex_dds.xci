@@ -2,9 +2,10 @@
   "schema": "xilinx.com:schema:json_instance:1.0",
   "ip_inst": {
     "xci_name": "tuner_complex_dds",
+    "cell_name": "full_radio_v1_0_S00_AXI_inst/u_dds_compiler_1",
     "component_reference": "xilinx.com:ip:dds_compiler:6.0",
     "ip_revision": "23",
-    "gen_directory": ".",
+    "gen_directory": "../../../../../../../soc/lab7_repo/radio_periph_lab/vivado/radio_periph_lab.tmp/full_radio_v1_0_project/full_radio_v1_0_project.gen/sources_1/ip/tuner_complex_dds",
     "parameters": {
       "component_parameters": {
         "Component_Name": [ { "value": "tuner_complex_dds", "resolve_type": "user", "usage": "all" } ],
@@ -177,11 +178,11 @@
         "IPCONTEXT": [ { "value": "IP_Flow" } ],
         "IPREVISION": [ { "value": "23" } ],
         "MANAGED": [ { "value": "TRUE" } ],
-        "OUTPUTDIR": [ { "value": "." } ],
+        "OUTPUTDIR": [ { "value": "../../../../../../../soc/lab7_repo/radio_periph_lab/vivado/radio_periph_lab.tmp/full_radio_v1_0_project/full_radio_v1_0_project.gen/sources_1/ip/tuner_complex_dds" } ],
         "SELECTEDSIMMODEL": [ { "value": "" } ],
         "SHAREDDIR": [ { "value": "." } ],
         "SWVERSION": [ { "value": "2023.2" } ],
-        "SYNTHESISFLOW": [ { "value": "OUT_OF_CONTEXT" } ]
+        "SYNTHESISFLOW": [ { "value": "GLOBAL" } ]
       }
     },
     "boundary": {
